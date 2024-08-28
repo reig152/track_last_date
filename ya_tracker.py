@@ -150,7 +150,7 @@ class YaTracker(ClickElements, ProcessData):
 
 
 def main():
-    tracker = YaTracker('0G1mE3zXsEE0Bg')
+    tracker = YaTracker('your_folder_id')
     last_change = tracker.start_selenium()
     print(f"LAST CHANGE OCCURED: {last_change}")
 
